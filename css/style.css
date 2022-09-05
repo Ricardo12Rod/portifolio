@@ -13,3 +13,15 @@ li {
   color: white;
 }
 
+body{
+  background-image: linear-gradient(90deg, red, blue);
+}
+
+header {
+  background-color: black;
+  margin: 40px 50px 50px 50px;
+}
+
+
+
+
