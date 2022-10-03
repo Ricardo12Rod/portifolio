@@ -1,27 +1,87 @@
-p {
-  color: white;
-}
+
 h1 {
-  color: darkcyan;
-}
-
-ul {
-  color: aquamarine;
-}
-
-li {
-  color: white;
+  color: rgb(19, 18, 102);
 }
 
 body{
-  background-image: linear-gradient(90deg, red, blue);
+  background-image: linear-gradient(90deg, darkcyan, rgb(0, 72, 121));
 }
 
 header {
-  background-color: black;
-  margin: 40px 50px 50px 50px;
+  background-image: linear-gradient(180deg, rgb(0, 0, 83), rgb(0, 73, 184)); /*esta propriedade altera a cor de fundo do elemento selecionado*/
+  color: chocolate;
+  margin: 40px 50px 50px 50px; /*margem externa*/
+  padding: 0px; /*margem interna*/
+  display: flex; /*coloca o item lado a lado*/
+  flex-direction: column;
+  align-items: center;
 }
 
+header img {
+  width: 150px;
+  border-radius: 90%;
+}
+header ul { 
+  text-transform: uppercase; /*altera tamanho da fonte(primeira letra maiuscula)*/ 
+}
+header nav li{
+  display: inline-block;
+  padding: 20px;
+}
+header nav li:hover{
+  color:rgb(0, 115, 255);
+  background-color: whitesmoke;
+  transition: 1s;
+  padding: 10px 20px;
+}
+main h1{
+  text-align: center;
+  padding: 25px 0px
+}
+main img {
+  width: 400px;
+  padding: 0px 20px;
+}
+main {
+  padding: 50px;
+}
+.linkSocial img {
+  width: 100px;
 
+}
+.linkSocial li {
+  display: inline-block;
+}
 
+.infos {
+  display: flex;
+  text-align: justify;
+  padding: 0px 350px 0px 0px;
+}
+.infos ul {
+  color: rgb(53, 184, 140);
+}
+.infos li {
+  color: black;
+}
 
+.aprendendo {
+  padding: 50px;
+}
+
+.aprendendo .tecnologias {
+  display: flex;
+}
+
+.aprendendo .tecnologias img {
+  width: 150px;
+}
+
+.aprendendo .tecnologias figure {
+  background-color: steelblue;
+  padding: 15px;
+  margin: 30px auto;
+  text-align: center;
+  font-size: 30px;
+
+}
